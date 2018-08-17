@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "suite1">
+
+    <parameter name="Name" value="Seb"/>
+    <parameter name="Age" value="36"/>
+
+    <test name = "testSuccessful">
+        <classes>
+            <class name = "MyPack.TestClassSuccessful"/>
+        </classes>
+    </test>
+</suite>
